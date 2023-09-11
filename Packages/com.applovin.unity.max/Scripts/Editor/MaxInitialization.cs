@@ -71,7 +71,7 @@ namespace AppLovinMax.Scripts.Editor
             var isPluginOutsideAssetsDir = AppLovinIntegrationManager.IsPluginOutsideAssetsDirectory;
             //以下代码为upm包修改而增加的
             var sourcePath = Path.GetFullPath(Path.Combine("Packages", "com.applovin.unity.max", "AppLovin", "Editor"));
-            var destPath = Path.Combine(pluginParentDir, "MaxSdk", "AppLovin", "Editor");
+            var destPath = Path.Combine(Application.dataPath, "MaxSdk", "AppLovin", "Editor");
             if (!Directory.Exists(destPath))
             {
                 UnityEngine.Debug.Log($"Create dest path:{destPath}");
