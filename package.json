@@ -1,0 +1,20 @@
+{
+	"displayName": "AppLovin Max",
+	"category": "Unity",
+	"description": "AppLovin Max",
+	"keywords": [
+		"max",
+		"applovin",
+		"unity"
+	],
+	"dependencies": {},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/suucha/applovin-unity-max.git"
+	},
+	"author": "applovin",
+	"name": "com.applovin.unity.max",
+	"version": "5.11.3",
+	"type": "library",
+	"unity": "2019.3"
+}
